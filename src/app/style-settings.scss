@@ -7,55 +7,69 @@ settings:
 	-
 		id: info
 		title: Get started
+		title.zh: 开始使用
 		type: heading
 		level: 1
 		collapsed: false
 	-
 		id: marketplace
 		title: Browse Marketplace
+		title.zh: 浏览主题市场
 		type: info-text
 		level: 1
 		markdown: true
 		description: Marketplace[](https://baseline.svnaxis.me/marketplace)
+		description.zh: 主题市场[](https://baseline.svnaxis.me/marketplace)
 	-
 		id: migration
 		title: Switch to Baseline
+		title.zh: 迁移到 Baseline
 		type: info-text
 		level: 1
 		markdown: true
 		description: Migrate[](https://baseline.svnaxis.me/converter/)
+		description.zh: 迁移[](https://baseline.svnaxis.me/converter/)
 	-
 		id: support
 		title: Support Development
+		title.zh: 支持开发
 		type: info-text
 		level: 1
 		markdown: true
 		description: Support[](https://www.buymeacoffee.com/svnaxis/)
+		description.zh: 支持[](https://www.buymeacoffee.com/svnaxis/)
 	-
 		id: colors
 		title: Colors
+		title.zh: 颜色
 		type: heading
 		level: 1
 		collapsed: true
 	-
 		id: accented-interface
 		title: Interface accent
+		title.zh: 界面强调色
 		description: Apply accent color throughout the app.
+		description.zh: 在整个应用中使用强调色。
 		type: class-toggle
 	-
 		id: color-scheme-accent
 		title: Adaptive accent
+		title.zh: 自适应强调色
 		description: Set accent color based on the current color scheme.
+		description.zh: 根据当前配色方案设置强调色。
 		type: class-toggle
 	-
 		id: colorist-light
 		title: Light
+		title.zh: 浅色
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: color-scheme-light
 		title: Signature
+		title.zh: 配色
 		type: class-select
 		allowEmpty: false
 		default: baseline-light
@@ -135,6 +149,7 @@ settings:
 	-
 		id: background-contrast-light
 		title: Type
+		title.zh: 对比类型
 		type: class-select
 		allowEmpty: false
 		default: contrast-light
@@ -154,6 +169,7 @@ settings:
 	-
 		id: colorist-l-light
 		title: Clarity
+		title.zh: 清晰度
 		type: variable-number-slider
 		default: 1
 		min: 0.5
@@ -162,6 +178,7 @@ settings:
 	-
 		id: colorist-c-light
 		title: Vibrancy
+		title.zh: 鲜艳度
 		type: variable-number-slider
 		default: 0
 		min: 0
@@ -170,6 +187,7 @@ settings:
 	-
 		id: colorist-h-light
 		title: Spectrum
+		title.zh: 色相
 		type: variable-number-slider
 		default: 0
 		min: 0
@@ -178,12 +196,14 @@ settings:
 	-
 		id: colorist-dark
 		title: Dark
+		title.zh: 深色
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: color-scheme-dark
 		title: Signature
+		title.zh: 配色
 		type: class-select
 		allowEmpty: false
 		default: baseline-dark
@@ -269,6 +289,7 @@ settings:
 	-
 		id: background-contrast-dark
 		title: Type
+		title.zh: 对比类型
 		type: class-select
 		allowEmpty: false
 		default: contrast-dark
@@ -291,6 +312,7 @@ settings:
 	-
 		id: colorist-l-dark
 		title: Clarity
+		title.zh: 清晰度
 		type: variable-number-slider
 		default: 1
 		min: 0.5
@@ -299,6 +321,7 @@ settings:
 	-
 		id: colorist-c-dark
 		title: Vibrancy
+		title.zh: 鲜艳度
 		type: variable-number-slider
 		default: 0
 		min: 0
@@ -307,6 +330,7 @@ settings:
 	-
 		id: colorist-h-dark
 		title: Spectrum
+		title.zh: 色相
 		type: variable-number-slider
 		default: 0
 		min: 0
@@ -315,18 +339,21 @@ settings:
 	-
 		id: colors-advanced
 		title: Advanced
+		title.zh: 高级
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: accent-palette
 		title: Accents
+		title.zh: 强调色
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: color-red
 		title: Red
+		title.zh: 红色
 		type: variable-themed-color
 		format: hex
         alt-format:
@@ -338,6 +365,7 @@ settings:
 	-
 		id: color-orange
 		title: Orange
+		title.zh: 橙色
 		type: variable-themed-color
 		format: hex
         alt-format:
@@ -349,6 +377,7 @@ settings:
 	-
 		id: color-yellow
 		title: Yellow
+		title.zh: 黄色
 		type: variable-themed-color
 		format: hex
         alt-format:
@@ -360,6 +389,7 @@ settings:
 	-
 		id: color-green
 		title: Green
+		title.zh: 绿色
 		type: variable-themed-color
 		format: hex
         alt-format:
@@ -371,6 +401,7 @@ settings:
 	-
 		id: color-cyan
 		title: Cyan
+		title.zh: 青色
 		type: variable-themed-color
 		format: hex
         alt-format:
@@ -382,6 +413,7 @@ settings:
 	-
 		id: color-blue
 		title: Blue
+		title.zh: 蓝色
 		type: variable-themed-color
 		format: hex
         alt-format:
@@ -393,6 +425,7 @@ settings:
 	-
 		id: color-purple
 		title: Purple
+		title.zh: 紫色
 		type: variable-themed-color
 		format: hex
         alt-format:
@@ -404,6 +437,7 @@ settings:
 	-
 		id: color-pink
 		title: Pink
+		title.zh: 粉色
 		type: variable-themed-color
 		format: hex
         alt-format:
@@ -415,13 +449,16 @@ settings:
 	-
 		id: surface-palette
 		title: Surfaces
+		title.zh: 表面
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: background-primary
 		title: Primary
+		title.zh: 主背景
 		description: Main workspace and editor background.
+		description.zh: 主工作区与编辑器背景。
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -429,7 +466,9 @@ settings:
 	-
 		id: background-primary-alt
 		title: Primary Elevated
+		title.zh: 主背景（抬升）
 		description: Used for blockquotes and tables.
+		description.zh: 用于引用块和表格。
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -437,7 +476,9 @@ settings:
 	-
 		id: background-secondary
 		title: Secondary
+		title.zh: 次背景
 		description: Used in sidebars and settings.
+		description.zh: 用于侧边栏和设置。
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -445,6 +486,7 @@ settings:
 	-
 		id: background-secondary-alt
 		title: Secondary Elevated
+		title.zh: 次背景（抬升）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -452,7 +494,9 @@ settings:
 	-
 		id: background-modifier-hover
 		title: Hover fill
+		title.zh: 悬停填充
 		description: Used in hover items and indicators.
+		description.zh: 用于悬停项和指示器。
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -461,7 +505,9 @@ settings:
 	-
 		id: background-modifier-active-hover
 		title: Active fill
+		title.zh: 激活填充
 		description: Used in active items and indicators.
+		description.zh: 用于激活项和指示器。
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -473,6 +519,7 @@ settings:
 	-
 		id: prompt-background
 		title: Command palette
+		title.zh: 命令面板
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -480,6 +527,7 @@ settings:
 	-
 		id: menu-background
 		title: Menu
+		title.zh: 菜单
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -487,6 +535,7 @@ settings:
 	-
 		id: modal-background
 		title: Modal
+		title.zh: 弹窗
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -494,13 +543,16 @@ settings:
 	-
 		id: element-palette
 		title: Elements
+		title.zh: 元素
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: interactive-normal
 		title: Interactive elements
+		title.zh: 交互元素
 		description: Used in buttons, dropdowns, and text inputs.
+		description.zh: 用于按钮、下拉菜单和文本输入框。
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -509,6 +561,7 @@ settings:
 	-
 		id: interactive-hover
 		title: Interactive elements (Hover)
+		title.zh: 交互元素（悬停）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -520,7 +573,9 @@ settings:
 	-
 		id: divider-color
 		title: Dividers
+		title.zh: 分隔线
 		description: Separators between sidebars, tabs, and panes.
+		description.zh: 侧边栏、标签页和窗格之间的分隔。
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -529,6 +584,7 @@ settings:
 	-
 		id: background-modifier-border
 		title: Borders
+		title.zh: 边框
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -536,6 +592,7 @@ settings:
 	-
 		id: background-modifier-border-hover
 		title: Borders (Hover)
+		title.zh: 边框（悬停）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -543,6 +600,7 @@ settings:
 	-
 		id: background-modifier-border-focus
 		title: Borders (Focus)
+		title.zh: 边框（聚焦）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -550,12 +608,14 @@ settings:
 	-
 		id: text-palette
 		title: Text
+		title.zh: 文字
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: text-normal
 		title: Primary text
+		title.zh: 主要文字
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -563,6 +623,7 @@ settings:
 	-
 		id: text-normal-editor
 		title: Primary text (Editor)
+		title.zh: 主要文字（编辑器）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -570,6 +631,7 @@ settings:
 	-
 		id: text-muted
 		title: Secondary text
+		title.zh: 次要文字
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -577,6 +639,7 @@ settings:
 	-
 		id: text-faint
 		title: Subtle text
+		title.zh: 淡色文字
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -584,6 +647,7 @@ settings:
 	-
 		id: italic-color
 		title: Italic text
+		title.zh: 斜体文字
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -591,6 +655,7 @@ settings:
 	-
 		id: bold-color
 		title: Bold text
+		title.zh: 粗体文字
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -601,6 +666,7 @@ settings:
 	-
 		id: text-highlight
 		title: Highlight text
+		title.zh: 高亮文字
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -609,6 +675,7 @@ settings:
 	-
 		id: text-highlight-bg
 		title: Highlight background
+		title.zh: 高亮背景
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -617,6 +684,7 @@ settings:
 	-
 		id: text-selection
 		title: Selection background
+		title.zh: 选区背景
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -625,12 +693,14 @@ settings:
 	-
 		id: code-palette
 		title: Syntax
+		title.zh: 语法
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: code-normal
 		title: Default
+		title.zh: 默认
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -638,6 +708,7 @@ settings:
 	-
 		id: code-comment
 		title: Comments
+		title.zh: 注释
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -645,6 +716,7 @@ settings:
 	-
 		id: code-function
 		title: Functions
+		title.zh: 函数
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -652,6 +724,7 @@ settings:
 	-
 		id: code-keyword
 		title: Keywords
+		title.zh: 关键字
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -659,6 +732,7 @@ settings:
 	-
 		id: code-important
 		title: Important
+		title.zh: 重要
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -666,6 +740,7 @@ settings:
 	-
 		id: code-operator
 		title: Operators
+		title.zh: 运算符
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -673,6 +748,7 @@ settings:
 	-
 		id: code-property
 		title: Properties
+		title.zh: 属性
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -680,6 +756,7 @@ settings:
 	-
 		id: code-punctuation
 		title: Punctuation
+		title.zh: 标点
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -687,6 +764,7 @@ settings:
 	-
 		id: code-string
 		title: Strings
+		title.zh: 字符串
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -694,6 +772,7 @@ settings:
 	-
 		id: code-tag
 		title: Tags
+		title.zh: 标签
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -701,6 +780,7 @@ settings:
 	-
 		id: code-value
 		title: Values
+		title.zh: 值
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -708,12 +788,14 @@ settings:
 	-
 		id: icon-palette
 		title: Icon
+		title.zh: 图标
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: icon-color
 		title: Icons
+		title.zh: 图标颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -721,6 +803,7 @@ settings:
 	-
 		id: icon-color-hover
 		title: Icons (Hover)
+		title.zh: 图标颜色（悬停）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -728,6 +811,7 @@ settings:
 	-
 		id: icon-color-active
 		title: Icons (Active)
+		title.zh: 图标颜色（激活）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -735,6 +819,7 @@ settings:
 	-
 		id: icon-color-focused
 		title: Icons (Focus)
+		title.zh: 图标颜色（聚焦）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -742,16 +827,19 @@ settings:
 	-
 		id: graph-palette
 		title: Graph
+		title.zh: 关系图谱
 		type: heading
 		level: 3
 		collapsed: true
     - 
         id: graph-info
 		description: Requires reloading to apply changes.
+		description.zh: 需要重新加载才能应用更改。
         type: info-text
 	-
 		id: graph-line
 		title: Lines
+		title.zh: 连线
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -759,6 +847,7 @@ settings:
 	-
 		id: graph-node
 		title: Nodes
+		title.zh: 节点
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -766,6 +855,7 @@ settings:
 	-
 		id: graph-node-focused
 		title: Active nodes
+		title.zh: 活动节点
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -773,6 +863,7 @@ settings:
 	-  
 		id: graph-node-tag
 		title: Tag nodes
+		title.zh: 标签节点
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -780,6 +871,7 @@ settings:
 	-  
 		id: graph-node-attachment
 		title: Attachment nodes
+		title.zh: 附件节点
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -787,6 +879,7 @@ settings:
 	-  
 		id: graph-node-unresolved
 		title: Unresolved nodes
+		title.zh: 未解析节点
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -794,17 +887,20 @@ settings:
 	-
 		id: interface
 		title: Interface
+		title.zh: 界面
 		type: heading
 		level: 1
 		collapsed: true
 	-
 		id: font-interface-override
 		title: Interface font
+		title.zh: 界面字体
 		type: variable-text
 		default: 'Inter'
 	-
 		id: density-modifier
 		title: Density
+		title.zh: 密度
 		type: variable-number-slider
 		default: 1
 		min: 0.75
@@ -813,6 +909,7 @@ settings:
 	-
 		id: radius-modifier
 		title: Roundness
+		title.zh: 圆角
 		type: variable-number-slider
 		default: 1
 		min: 0.5
@@ -821,6 +918,7 @@ settings:
 	-
 		id: icon-stroke-modifier
 		title: Icon thickness
+		title.zh: 图标粗细
 		type: variable-number-slider
 		default: 1
 		options:
@@ -830,6 +928,7 @@ settings:
 	-
 		id: layout-style
 		title: Workspace
+		title.zh: 工作区
 		type: class-select
 		allowEmpty: false
 		default: layout-baseline
@@ -864,6 +963,7 @@ settings:
 	-
 		id: element-style
 		title: Personality
+		title.zh: 控件风格
 		type: class-select
 		allowEmpty: false
 		default: input-baseline
@@ -886,6 +986,7 @@ settings:
 	-
 		id: status-bar-style
 		title: Status bar
+		title.zh: 状态栏
 		type: class-select
 		allowEmpty: false
 		default: status-bar-baseline
@@ -905,23 +1006,30 @@ settings:
 	-
 		id: accessibility
 		title: Accessibility
+		title.zh: 无障碍
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: reduce-contrast-change
 		title: Reduce contrast change
+		title.zh: 减弱对比度变化
 		description: Minimize contrast shifts when window loses focus.
+		description.zh: 窗口失去焦点时尽量减少对比度变化。
 		type: class-toggle
 	-
 		id: reduce-motion
 		title: Reduce motion
+		title.zh: 减弱动态效果
 		description: Minimize animation effects.
+		description.zh: 尽量减少动画效果。
 		type: class-toggle
 	-
 		id: font-ui-modifier
 		title: Interface font size
+		title.zh: 界面字号
 		description: Fine-tune interface text size.
+		description.zh: 微调界面文字大小。
 		type: variable-number-slider
 		default: 0
 		min: -8
@@ -931,7 +1039,9 @@ settings:
 	-
 		id: icon-size-modifier
 		title: Icon size
+		title.zh: 图标大小
 		description: Fine-tune icon size.
+		description.zh: 微调图标大小。
 		type: variable-number-slider
 		default: 0
 		min: -4
@@ -941,12 +1051,14 @@ settings:
 	-
 		id: animation
 		title: Animation
+		title.zh: 动画
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: anim-motion-baseline
 		title: Animation personality
+		title.zh: 动画风格
 		type: variable-select
 		default: cubic-bezier(0.1, 0, 0.1, 1.25)
 		options:
@@ -965,6 +1077,7 @@ settings:
 	-
 		id: anim-speed-modifier
 		title: Animation speed
+		title.zh: 动画速度
 		type: variable-number-slider
 		default: 1
 		min: 0
@@ -973,17 +1086,20 @@ settings:
 	-
 		id: tabs
 		title: Tabs
+		title.zh: 标签页
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: header-height
 		title: Tab bar height
+		title.zh: 标签栏高度
 		type: variable-text
 		default: 48px
 	-
 		id: tab-style
 		title: Editor tab style
+		title.zh: 编辑器标签样式
 		type: class-select
 		allowEmpty: false
 		default: tab-default
@@ -1006,6 +1122,7 @@ settings:
 	-
 		id: tab-text-align
 		title: Editor tab label alignment
+		title.zh: 编辑器标签文字对齐
 		type: variable-select
 		default: left
 		options:
@@ -1018,30 +1135,36 @@ settings:
 	-
 		id: tab-divider
 		title: Editor tab divider
+		title.zh: 编辑器标签分隔线
 		type: class-toggle
 	-
 		id: tab-full-width
 		title: Full width tabs
+		title.zh: 全宽标签页
 		type: class-toggle
 	-
 		id: tab-stacks
 		title: Tab stacks
+		title.zh: 堆叠标签页
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: tab-stacked-pane-width
 		title: Stacked tab width
+		title.zh: 堆叠标签宽度
 		type: variable-text
 		default: 700px
 	-
 		id: tab-stacked-header-width
 		title: Spine width
+		title.zh: 书脊宽度
 		type: variable-text
 		default: 40px
 	-
 		id: tab-stacked-spine-orientation
 		title: Spine text orientation
+		title.zh: 书脊文字方向
 		type: class-select
 		default: tab-stack-top
 		options:
@@ -1066,6 +1189,7 @@ settings:
 	-
 		id: tab-stacked-spine-order
 		title: Spine element order
+		title.zh: 书脊元素顺序
 		type: variable-select
 		default: row
 		options:
@@ -1078,17 +1202,20 @@ settings:
 	-
 		id: tab-title-bar
 		title: Tab title bar
+		title.zh: 标签标题栏
 		type: heading
 		level: 2
 		collapsed: true
     - 
         id: tab-title-bar-info
 		description: Requires **Show tab title bar** in **Appearance** settings.
+		description.zh: 需要在**外观**设置中开启**显示标签页标题栏**。
         type: info-text
 		markdown: true
 	-
 		id: file-header-visibility
 		title: Tab title visibility
+		title.zh: 标签标题可见性
 		type: class-select
 		default: view-header-title-hover
 		options:
@@ -1104,11 +1231,13 @@ settings:
 	-
 		id: file-header-font-size
 		title: Tab title font size
+		title.zh: 标签标题字号
 		type: variable-text
 		default: 'var(--font-ui-small)'
 	-
 		id: file-header-font-weight
 		title: Tab title font weight
+		title.zh: 标签标题字重
 		type: variable-number-slider
 		default: 400
 		min: 100
@@ -1117,6 +1246,7 @@ settings:
 	-
 		id: file-header-justify
 		title: Tab title alignment
+		title.zh: 标签标题对齐
 		type: variable-select
 		default: center
 		options:
@@ -1129,12 +1259,14 @@ settings:
 	-
 		id: sidebars
 		title: Sidebars
+		title.zh: 侧边栏
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: tab-top-left-style
 		title: Tab style (Left top)
+		title.zh: 标签样式（左上）
 		type: class-select
 		allowEmpty: false
 		default: tab-top-left-stacked
@@ -1154,6 +1286,7 @@ settings:
 	-
 		id: tab-left-style
 		title: Tab style (Left)
+		title.zh: 标签样式（左侧）
 		type: class-select
 		allowEmpty: false
 		default: tab-left-compact
@@ -1173,6 +1306,7 @@ settings:
 	-
 		id: tab-top-right-style
 		title: Tab style (Right top)
+		title.zh: 标签样式（右上）
 		type: class-select
 		allowEmpty: false
 		default: tab-top-right-icon
@@ -1189,6 +1323,7 @@ settings:
 	-
 		id: tab-right-style
 		title: Tab style (Right)
+		title.zh: 标签样式（右侧）
 		type: class-select
 		allowEmpty: false
 		default: tab-right-compact
@@ -1208,6 +1343,7 @@ settings:
 	-
 		id: nav-action
 		title: Panel action style
+		title.zh: 面板操作样式
 		type: class-select
 		allowEmpty: false
 		default: nav-action-dot
@@ -1230,26 +1366,33 @@ settings:
 	-
 		id: hide-vault-switcher-off
 		title: Always show vault switcher
+		title.zh: 始终显示库切换器
 		type: class-toggle
 	-
 		id: hover-sidebars
 		title: Hover reveal
+		title.zh: 悬停显示
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: hover-ribbon
 		title: Hover ribbon
+		title.zh: 悬停功能区
 		description: Reveal ribbon by hovering over left window edge.
+		description.zh: 悬停在窗口左边缘时显示功能区。
 		type: class-toggle
 	-
 		id: hover-sidedock
 		title: Hover sidebars
+		title.zh: 悬停侧边栏
 		description: Reveal collapsed sidebars by hovering over window edges.
+		description.zh: 悬停在窗口边缘时展开已折叠的侧边栏。
 		type: class-toggle
 	-
 		id: hover-sidedock-trigger-area
 		title: Hover trigger area
+		title.zh: 悬停触发区域
 		type: variable-select
 		default: 4px
 		options:
@@ -1268,6 +1411,7 @@ settings:
 	-
 		id: hover-sidedock-style
 		title: Hover sidebars style
+		title.zh: 悬停侧边栏样式
 		type: class-select
 		allowEmpty: false
 		default: hover-sidedock-subtle
@@ -1281,27 +1425,33 @@ settings:
 	-
 		id: hover-sidedock-width
 		title: Hover sidebars width
+		title.zh: 悬停侧边栏宽度
 		type: variable-text
 		default: 320px
 	-
 		id: hover-sidedock-delay
 		title: Hover sidebars delay
+		title.zh: 悬停侧边栏延迟
 		type: variable-text
 		default: 160ms
 	-
 		id: hover-sidedock-active-off
 		title: Discard interactions
+		title.zh: 忽略交互
 		description: Always collapse hover sidebars after cursor leaving.
+		description.zh: 光标离开后始终折叠悬停侧边栏。
 		type: class-toggle
 	-
 		id: file-explorer
 		title: File explorer
+		title.zh: 文件列表
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: nav-item-active-style
 		title: Active file style
+		title.zh: 当前文件样式
 		type: class-select
 		allowEmpty: false
 		default: nav-item-subtle
@@ -1318,6 +1468,7 @@ settings:
 	-
 		id: colorful-folders
 		title: Colorful folders
+		title.zh: 彩色文件夹
 		type: class-select
 		allowEmpty: false
 		default: colorful-folders-off
@@ -1346,23 +1497,28 @@ settings:
 	-
 		id: nav-item-size
 		title: Item name size
+		title.zh: 项目名称大小
 		type: variable-text
 		default: 13px
 	-
 		id: full-item-name
 		title: Full item name
+		title.zh: 完整项目名称
 		type: class-toggle
 	-
 		id: bold-folders
 		title: Bold folders name
+		title.zh: 文件夹名称加粗
 		type: class-toggle
 	-
 		id: large-new-note
 		title: Large new note button
+		title.zh: 大号新建笔记按钮
 		type: class-toggle
 	-
 		id: nav-indentation-guide-width
 		title: Indentation guides thickness
+		title.zh: 缩进参考线粗细
 		type: variable-number-slider
 		format: px
 		default: 0
@@ -1372,6 +1528,7 @@ settings:
 	-
 		id: nav-indentation-guide-color
 		title: Indentation guides color
+		title.zh: 缩进参考线颜色
 		type: variable-select
 		allowEmpty: false
 		default: var(--background-modifier-border-hover)
@@ -1388,21 +1545,25 @@ settings:
 	-
 		id: titlebar
 		title: Frame title
+		title.zh: 边框标题
 		type: heading
 		level: 2
 		collapsed: true
     - 
         id: titlebar-info
 		description: Requires **Obsidian frame** in **Appearance** settings.
+		description.zh: 需要在**外观**设置中使用 **Obsidian 边框**。
         type: info-text
 		markdown: true
 	-
 		id: titlebar-text-off
 		title: Hide frame title
+		title.zh: 隐藏边框标题
 		type: class-toggle
 	-
 		id: titlebar-text-weight
 		title: Frame title font weight
+		title.zh: 边框标题字重
 		type: variable-number-slider
 		default: 600
 		min: 100
@@ -1411,16 +1572,19 @@ settings:
 	-
 		id: colorful-frame
 		title: Tinted frame
+		title.zh: 着色边框
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: colorful-frame
 		title: Tinted frame
+		title.zh: 着色边框
 		type: class-toggle
 	-
 		id: colorful-frame-background
 		title: Tinted frame background
+		title.zh: 着色边框背景
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1429,6 +1593,7 @@ settings:
 	-
 		id: colorful-frame-icon-color
 		title: Tinted frame Icons
+		title.zh: 着色边框图标
 		type: variable-themed-color
 		format: hex
 		default-light: '#FFFFFF'
@@ -1436,17 +1601,20 @@ settings:
 	-
 		id: translucent-window
 		title: Translucency
+		title.zh: 半透明
 		type: heading
 		level: 2
 		collapsed: true
     - 
         id: translucent-window-info
 		description: Requires **Translucent window** in **Appearance** settings.
+		description.zh: 需要在**外观**设置中开启**半透明窗口**。
         type: info-text
 		markdown: true
 	-
 		id: translucent-light-opacity
 		title: Light translucent window opacity
+		title.zh: 浅色半透明窗口不透明度
 		type: variable-number-slider
 		default: 50
 		min: 0
@@ -1456,6 +1624,7 @@ settings:
 	-
 		id: translucent-dark-opacity
 		title: Dark translucent window opacity
+		title.zh: 深色半透明窗口不透明度
 		type: variable-number-slider
 		default: 50
 		min: 0
@@ -1465,56 +1634,68 @@ settings:
 	-
 		id: mobile
 		title: Mobile
+		title.zh: 移动端
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: auto-full-screen-title
 		title: Informative full screen
+		title.zh: 全屏信息提示
 		description: Display current page title when interface elements are hidden.
+		description.zh: 界面元素隐藏时显示当前页面标题。
 		type: class-toggle
 	-
 		id: horizontal-tab-options
 		title: Horizontal tab list
+		title.zh: 横向标签列表
 		type: class-toggle
 	-
 		id: mobile-sidebar-width-override
 		title: Sidebar width
+		title.zh: 侧边栏宽度
 		type: variable-text
 		default: '84vw'
 	-
 		id: mobile-left-sidebar-width
 		title: Tablet sidebar width (Left)
+		title.zh: 平板侧边栏宽度（左）
 		type: variable-text
 		default: '360px'
 	-
 		id: mobile-right-sidebar-width
 		title: Tablet sidebar width (Right)
+		title.zh: 平板侧边栏宽度（右）
 		type: variable-text
 		default: '360px'
 	-
 		id: mobile-left-sidebar-width-pinned
 		title: Tablet pinned sidebar width (Left)
+		title.zh: 平板固定侧边栏宽度（左）
 		type: variable-text
 		default: '300px'
 	-
 		id: mobile-right-sidebar-width-pinned
 		title: Tablet pinned sidebar width (Right)
+		title.zh: 平板固定侧边栏宽度（右）
 		type: variable-text
 		default: '300px'
 	-
 		id: empty-state
 		title: New tab
+		title.zh: 新标签页
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: empty-state-logo-off
 		title: Hide Obsidian logo
+		title.zh: 隐藏 Obsidian 标志
 		type: class-toggle
 	-
 		id: empty-state-style
 		title: New tab action style
+		title.zh: 新标签页操作样式
 		type: class-select
 		default: empty-state-baseline
 		options:
@@ -1533,62 +1714,76 @@ settings:
 	-
 		id: settings
 		title: Settings
+		title.zh: 设置
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: baseline-marketplace-off
 		title: Hide Marketplace
+		title.zh: 隐藏主题市场
 		type: class-toggle
 	-
 		id: baseline-migration-off
 		title: Hide Migrate
+		title.zh: 隐藏迁移
 		type: class-toggle
 	-
 		id: baseline-support-off
 		title: Hide Support
+		title.zh: 隐藏支持
 		type: class-toggle
 	-
 		id: editor
 		title: Editor
+		title.zh: 编辑器
 		type: heading
 		level: 1
 		collapsed: true
 	-
 		id: font-text-override
 		title: Editor font
+		title.zh: 编辑器字体
 		type: variable-text
 		default: 'Inter'
 	-
 		id: font-monospace-override
 		title: Monospace font
+		title.zh: 等宽字体
 		type: variable-text
 		default: 'ui-monospace'
 	-
 		id: p-spacing
 		title: Paragraph spacing
+		title.zh: 段落间距
 		type: variable-text
 		default: 1.25rem
 	-
 		id: focus-view
 		title: Focus view
+		title.zh: 专注视图
 		type: class-toggle
 		description: Hide tabs and table title bar when both sidebars are collapsed.
+		description.zh: 两侧边栏都折叠时隐藏标签页和表格标题栏。
 		addCommand: true
 	-
 		id: mode-switcher-off
 		title: Disable quick mode switcher
+		title.zh: 禁用快速模式切换
 		type: class-toggle
 		description: Display editor mode toggle at the top of the editor.
+		description.zh: 在编辑器顶部显示编辑模式切换。
 	-
 		id: active-line
 		title: Active line
+		title.zh: 活动行
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: active-line-style
 		title: Active line highlight style
+		title.zh: 活动行高亮样式
 		type: class-select
 		default: active-line-off
 		options:
@@ -1607,6 +1802,7 @@ settings:
 	-
 		id: active-line-color
 		title: Active line highlight color
+		title.zh: 活动行高亮颜色
 		type: class-select
 		default: active-line-color-default
 		options:
@@ -1619,31 +1815,37 @@ settings:
 	-
 		id: blockwidth
 		title: Block width
+		title.zh: 块宽度
 		type: heading
 		level: 2
 		collapsed: true
     - 
         id: block-width-info
 		description: Requires **Readable line length** in **Editor** settings. [Usage guide](https://github.com/svnaxis/obsidian-baseline#block-width)
+		description.zh: 需要在**编辑器**设置中开启**可读行长度**。[使用指南](https://github.com/svnaxis/obsidian-baseline#block-width)
         type: info-text
 		markdown: true
 	-
 		id: block-width-off
 		title: Disable block width
+		title.zh: 禁用块宽度
 		type: class-toggle
 	-
 		id: line-width
 		title: Default line width
+		title.zh: 默认行宽
 		type: variable-text
 		default: 700px
 	-
 		id: line-width-wide
 		title: Wide line width
+		title.zh: 宽行宽
 		type: variable-text
 		default: 50rem
 	-
 		id: table-block-width
 		title: Table block width
+		title.zh: 表格块宽度
 		type: class-select
 		allowEmpty: false
 		default: table-normal
@@ -1663,6 +1865,7 @@ settings:
 	-
 		id: bases-block-width
 		title: Bases block width
+		title.zh: Bases 块宽度
 		type: class-select
 		allowEmpty: false
 		default: bases-normal
@@ -1682,6 +1885,7 @@ settings:
 	-
 		id: image-block-width
 		title: Image block width
+		title.zh: 图片块宽度
 		type: class-select
 		allowEmpty: false
 		default: img-normal
@@ -1701,27 +1905,32 @@ settings:
 	-
 		id: inline-title
 		title: Inline title
+		title.zh: 内联标题
 		type: heading
 		level: 2
 		collapsed: true
     - 
         id: inline-title-info
 		description: Requires **Show inline title** in **Appearance** settings.
+		description.zh: 需要在**外观**设置中开启**显示内联标题**。
         type: info-text
 		markdown: true
 	-
 		id: inline-title-font
 		title: Inline title font
+		title.zh: 内联标题字体
 		type: variable-text
 		default: Inter
 	-
 		id: inline-title-size
 		title: Inline title font size
+		title.zh: 内联标题字号
 		type: variable-text
 		default: 1.5rem
 	-
 		id: inline-title-align
 		title: Inline title alignment
+		title.zh: 内联标题对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -1735,6 +1944,7 @@ settings:
 	-
 		id: inline-title-weight
 		title: Inline title font weight
+		title.zh: 内联标题字重
 		type: variable-number-slider
 		default: 600
 		min: 100
@@ -1743,6 +1953,7 @@ settings:
 	-
 		id: inline-title-color
 		title: Inline title text color
+		title.zh: 内联标题文字颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -1750,12 +1961,14 @@ settings:
 	-
 		id: properties
 		title: Properties
+		title.zh: 属性
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: metadata-style
 		title: Property style
+		title.zh: 属性样式
 		type: class-select
 		allowEmpty: false
 		default: metadata-default
@@ -1772,6 +1985,7 @@ settings:
 	-
 		id: metadata-add-property
 		title: Add property button visibility
+		title.zh: 添加属性按钮可见性
 		type: class-select
 		allowEmpty: false
 		default: metadata-add-property-always
@@ -1788,6 +2002,7 @@ settings:
 	-
 		id: metadata-label-width-modifier
 		title: Property name width
+		title.zh: 属性名宽度
 		type: variable-number-slider
 		default: 1
 		min: 0.5
@@ -1796,48 +2011,59 @@ settings:
 	-
 		id: metadata-compact
 		title: Compact properties
+		title.zh: 紧凑属性
 		type: class-toggle
 	-
 		id: metadata-list-tags
 		title: Show list as tags
+		title.zh: 列表显示为标签
 		type: class-toggle
 	-
 		id: metadata-longtext
 		title: Show longer text
+		title.zh: 显示更长文本
 		type: class-toggle
 	-
 		id: metadata-heading-off
 		title: Hide property heading
+		title.zh: 隐藏属性标题
 		type: class-toggle
 	-
 		id: metadata-icons-off
 		title: Hide property icons
+		title.zh: 隐藏属性图标
 		type: class-toggle
 	-
 		id: headings
 		title: Headings
+		title.zh: 标题
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: heading-spacing
 		title: Heading spacing
+		title.zh: 标题间距
 		description: Adjust space between headings and paragraphs.
+		description.zh: 调整标题与段落之间的间距。
 		type: variable-text
 		default: 2.5rem
 	-
 		id: colorful-headings
 		title: Colorful headings
+		title.zh: 彩色标题
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: colorful-headings-text
 		title: Colored heading text
+		title.zh: 彩色标题文字
 		type: class-toggle
 	-
 		id: colorful-headings
 		title: Heading indicator
+		title.zh: 标题指示器
 		type: class-select
 		allowEmpty: false
 		default: colorful-headings-off
@@ -1854,25 +2080,30 @@ settings:
 	-
 		id: colorful-headings-background
 		title: Heading background
+		title.zh: 标题背景
 		type: class-toggle
 	-
 		id: colorful-headings-full-width
 		title: Full width background
+		title.zh: 全宽背景
 		type: class-toggle
     - 
         id: colorful-headings-info
 		description: Colorful headings color follow individual heading settings below.
+		description.zh: 彩色标题的颜色遵循下方各级标题的单独设置。
         type: info-text
 		markdown: true
 	-
 		id: level-1-headings
 		title: Level 1 Headings
+		title.zh: 一级标题
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: h1-color
 		title: H1 color
+		title.zh: H1 颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -1880,16 +2111,19 @@ settings:
 	-
 		id: h1-font
 		title: H1 font
+		title.zh: H1 字体
 		type: variable-text
 		default: Inter
 	-
 		id: h1-size
 		title: H1 font size
+		title.zh: H1 字号
 		type: variable-text
 		default: 1.5rem
 	-
 		id: h1-weight
 		title: H1 font weight
+		title.zh: H1 字重
 		type: variable-number-slider
 		default: 500
 		min: 100
@@ -1898,6 +2132,7 @@ settings:
 	-
 		id: h1-variant
 		title: H1 font variant
+		title.zh: H1 字体变体
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -1914,6 +2149,7 @@ settings:
 	-
 		id: h1-style
 		title: H1 font style
+		title.zh: H1 字体样式
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -1927,6 +2163,7 @@ settings:
 	-
 		id: h1-transform
 		title: H1 text case
+		title.zh: H1 大小写
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -1946,6 +2183,7 @@ settings:
 	-
 		id: h1-align
 		title: H1 alignment
+		title.zh: H1 对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -1959,16 +2197,19 @@ settings:
 	-
 		id: h1-l
 		title: H1 divider
+		title.zh: H1 分隔线
 		type: class-toggle
 	-
 		id: level-2-headings
 		title: Level 2 Headings
+		title.zh: 二级标题
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: h2-color
 		title: H2 color
+		title.zh: H2 颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -1976,16 +2217,19 @@ settings:
 	-
 		id: h2-font
 		title: H2 font
+		title.zh: H2 字体
 		type: variable-text
 		default: Inter
 	-
 		id: h2-size
 		title: H2 font size
+		title.zh: H2 字号
 		type: variable-text
 		default: 1.25rem
 	-
 		id: h2-weight
 		title: H2 font weight
+		title.zh: H2 字重
 		type: variable-number-slider
 		default: 500
 		min: 100
@@ -1994,6 +2238,7 @@ settings:
 	-
 		id: h2-variant
 		title: H2 font variant
+		title.zh: H2 字体变体
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2010,6 +2255,7 @@ settings:
 	-
 		id: h2-style
 		title: H2 font style
+		title.zh: H2 字体样式
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2023,6 +2269,7 @@ settings:
 	-
 		id: h2-transform
 		title: H2 text case
+		title.zh: H2 大小写
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2042,6 +2289,7 @@ settings:
 	-
 		id: h2-align
 		title: H2 alignment
+		title.zh: H2 对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -2055,16 +2303,19 @@ settings:
 	-
 		id: h2-l
 		title: H2 divider
+		title.zh: H2 分隔线
 		type: class-toggle
 	-
 		id: level-3-headings
 		title: Level 3 Headings
+		title.zh: 三级标题
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: h3-color
 		title: H3 color
+		title.zh: H3 颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2072,16 +2323,19 @@ settings:
 	-
 		id: h3-font
 		title: H3 font
+		title.zh: H3 字体
 		type: variable-text
 		default: Inter
 	-
 		id: h3-size
 		title: H3 font size
+		title.zh: H3 字号
 		type: variable-text
 		default: 1rem
 	-
 		id: h3-weight
 		title: H3 font weight
+		title.zh: H3 字重
 		type: variable-number-slider
 		default: 500
 		min: 100
@@ -2090,6 +2344,7 @@ settings:
 	-
 		id: h3-variant
 		title: H3 font variant
+		title.zh: H3 字体变体
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2106,6 +2361,7 @@ settings:
 	-
 		id: h3-style
 		title: H3 font style
+		title.zh: H3 字体样式
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2119,6 +2375,7 @@ settings:
 	-
 		id: h3-transform
 		title: H3 text case
+		title.zh: H3 大小写
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2138,6 +2395,7 @@ settings:
 	-
 		id: h3-align
 		title: H3 alignment
+		title.zh: H3 对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -2151,16 +2409,19 @@ settings:
 	-
 		id: h3-l
 		title: H3 divider
+		title.zh: H3 分隔线
 		type: class-toggle
 	-
 		id: level-4-headings
 		title: Level 4 Headings
+		title.zh: 四级标题
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: h4-color
 		title: H4 color
+		title.zh: H4 颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2168,16 +2429,19 @@ settings:
 	-
 		id: h4-font
 		title: H4 font
+		title.zh: H4 字体
 		type: variable-text
 		default: Inter
 	-
 		id: h4-size
 		title: H4 font size
+		title.zh: H4 字号
 		type: variable-text
 		default: 1rem
 	-
 		id: h4-weight
 		title: H4 font weight
+		title.zh: H4 字重
 		type: variable-number-slider
 		default: 600
 		min: 100
@@ -2186,6 +2450,7 @@ settings:
 	-
 		id: h4-variant
 		title: H4 font variant
+		title.zh: H4 字体变体
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2202,6 +2467,7 @@ settings:
 	-
 		id: h4-style
 		title: H4 font style
+		title.zh: H4 字体样式
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2215,6 +2481,7 @@ settings:
 	-
 		id: h4-transform
 		title: H4 text case
+		title.zh: H4 大小写
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2234,6 +2501,7 @@ settings:
 	-
 		id: h4-align
 		title: H4 alignment
+		title.zh: H4 对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -2247,17 +2515,20 @@ settings:
 	-
 		id: h4-l
 		title: H4 divider
+		title.zh: H4 分隔线
 		type: class-toggle
 		default: false   
 	-
 		id: level-5-headings
 		title: Level 5 Headings
+		title.zh: 五级标题
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: h5-color
 		title: H5 color
+		title.zh: H5 颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2265,16 +2536,19 @@ settings:
 	-
 		id: h5-font
 		title: H5 font
+		title.zh: H5 字体
 		type: variable-text
 		default: Inter
 	- 
 		id: h5-size
 		title: H5 font size
+		title.zh: H5 字号
 		type: variable-text
 		default: 0.9375rem
 	-
 		id: h5-weight
 		title: H5 font weight
+		title.zh: H5 字重
 		type: variable-number-slider
 		default: 500
 		min: 100
@@ -2283,6 +2557,7 @@ settings:
 	-
 		id: h5-variant
 		title: H5 font variant
+		title.zh: H5 字体变体
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2299,6 +2574,7 @@ settings:
 	-
 		id: h5-style
 		title: H5 font style
+		title.zh: H5 字体样式
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2312,6 +2588,7 @@ settings:
 	-
 		id: h5-transform
 		title: H5 text case
+		title.zh: H5 大小写
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2331,6 +2608,7 @@ settings:
 	-
 		id: h5-align
 		title: H5 alignment
+		title.zh: H5 对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -2344,16 +2622,19 @@ settings:
 	-
 		id: h5-l
 		title: H5 divider
+		title.zh: H5 分隔线
 		type: class-toggle
 	-
 		id: level-6-headings
 		title: Level 6 Headings
+		title.zh: 六级标题
 		type: heading
 		level: 3
 		collapsed: true
 	-
 		id: h6-color
 		title: H6 color
+		title.zh: H6 颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2361,16 +2642,19 @@ settings:
 	-
 		id: h6-font
 		title: H6 font
+		title.zh: H6 字体
 		type: variable-text
 		default: Inter
 	-
 		id: h6-size
 		title: H6 font size
+		title.zh: H6 字号
 		type: variable-text
 		default: 0.9375rem
 	-
 		id: h6-weight
 		title: H6 font weight
+		title.zh: H6 字重
 		type: variable-number-slider
 		default: 600
 		min: 100
@@ -2379,6 +2663,7 @@ settings:
 	-
 		id: h6-variant
 		title: H6 font variant
+		title.zh: H6 字体变体
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2395,6 +2680,7 @@ settings:
 	-
 		id: h6-style
 		title: H6 font style
+		title.zh: H6 字体样式
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2408,6 +2694,7 @@ settings:
 	-
 		id: h6-transform
 		title: H6 text case
+		title.zh: H6 大小写
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2427,6 +2714,7 @@ settings:
 	-
 		id: h6-align
 		title: H6 alignment
+		title.zh: H6 对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -2440,16 +2728,19 @@ settings:
 	-
 		id: h6-l
 		title: H6 divider
+		title.zh: H6 分隔线
 		type: class-toggle
 	-
 		id: horizontal-rule
 		title: Horizontal rule
+		title.zh: 分隔线
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: hr-color
 		title: Horizontal rule color
+		title.zh: 分隔线颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2457,11 +2748,13 @@ settings:
 	-
 		id: hr-width
 		title: Horizontal rule width
+		title.zh: 分隔线宽度
 		type: variable-text
 		default: 100%
 	-
 		id: hr-thickness
 		title: Horizontal rule thickness
+		title.zh: 分隔线粗细
 		type: variable-number-slider
 		format: px
 		default: 1
@@ -2471,6 +2764,7 @@ settings:
 	-
 		id: hr-align
 		title: Horizontal rule alignment
+		title.zh: 分隔线对齐
 		type: variable-select
 		default: center
 		options:
@@ -2486,56 +2780,66 @@ settings:
 	-
 		id: hr-dashed
 		title: Dashed horizontal rule
+		title.zh: 虚线分隔线
 		type: class-toggle
 	- 
 		id: hr-dashed-size
 		title: Dashed line size
+		title.zh: 虚线尺寸
 		type: variable-text
 		allowEmpty: false
 		default: 1rem
 	- 
 		id: hr-dashed-spacing
 		title: Dashed line spacing
+		title.zh: 虚线间距
 		type: variable-text
 		allowEmpty: false
 		default: 0.5rem
 	-
 		id: banner
 		title: Banner
+		title.zh: 横幅
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: banner-off
 		title: Disable banner
+		title.zh: 禁用横幅
 		type: class-toggle
 	-
 		id: banner-icon-size
 		title: Banner icon size
+		title.zh: 横幅图标大小
 		type: variable-text
 		allowEmpty: false
 		default: 3rem
 	- 
 		id: banner-image-height
 		title: Banner image height
+		title.zh: 横幅图片高度
 		type: variable-text
 		allowEmpty: false
 		default: 320px
 	- 
 		id: banner-image-height-s
 		title: Banner image height (Mobile)
+		title.zh: 横幅图片高度（移动端）
 		type: variable-text
 		allowEmpty: false
 		default: 240px
 	-
 		id: banner-image-inset
 		title: Banner image side spacing
+		title.zh: 横幅图片侧边距
 		type: variable-text
 		allowEmpty: false
 		default: 8px
 	-
 		id: banner-image-radius
 		title: Banner image radius
+		title.zh: 横幅图片圆角
 		type: variable-number-slider
 		default: 8
 		min: 0
@@ -2545,6 +2849,7 @@ settings:
 	-
 		id: banner-image-object-fit
 		title: Banner image fit
+		title.zh: 横幅图片适应方式
 		type: variable-select
 		default: cover
 		options:
@@ -2560,12 +2865,14 @@ settings:
 	-
 		id: bases
 		title: Bases
+		title.zh: Bases
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: bases-toolbar-label-display
 		title: Toolbar text label
+		title.zh: 工具栏文字标签
 		type: variable-select
 		allowEmpty: false
 		default: flex
@@ -2579,6 +2886,7 @@ settings:
 	-
 		id: bases-table-header-icon-display
 		title: Table header icons
+		title.zh: 表头图标
 		type: variable-select
 		allowEmpty: false
 		default: flex
@@ -2592,6 +2900,7 @@ settings:
 	-
 		id: bases-table-align-items
 		title: Table vertical alignment
+		title.zh: 表格垂直对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -2608,20 +2917,24 @@ settings:
 	-
 		id: bases-row-alt
 		title: Alternating row background
+		title.zh: 交替行背景
 		type: class-toggle
 	-
 		id: bases-col-alt
 		title: Alternating column background
+		title.zh: 交替列背景
 		type: class-toggle
 	-
 		id: blockquotes
 		title: Blockquotes
+		title.zh: 引用块
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: blockquote-style
 		title: Blockquote style
+		title.zh: 引用块样式
 		type: class-select
 		allowEmpty: false
 		default: blockquote-block
@@ -2635,6 +2948,7 @@ settings:
 	-
 		id: blockquote-border-thickness
 		title: Blockquote border thickness
+		title.zh: 引用块边框粗细
 		type: variable-number-slider
 		format: px
 		default: 2
@@ -2644,11 +2958,13 @@ settings:
 	-
 		id: blockquote-size
 		title: Blockquote font size
+		title.zh: 引用块字号
 		type: variable-text
 		default: 1rem
 	-
 		id: blockquote-font-style
 		title: Blockquote font style
+		title.zh: 引用块字体样式
 		type: variable-select
 		allowEmpty: false
 		default: normal
@@ -2662,6 +2978,7 @@ settings:
 	-
 		id: blockquote-color
 		title: Blockquote text color
+		title.zh: 引用块文字颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2669,6 +2986,7 @@ settings:
 	-
 		id: blockquote-background-color
 		title: Blockquote background
+		title.zh: 引用块背景
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -2677,6 +2995,7 @@ settings:
 	-
 		id: blockquote-border-color
 		title: Blockquote border color
+		title.zh: 引用块边框颜色
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -2685,37 +3004,44 @@ settings:
 	-
 		id: cards
 		title: Cards
+		title.zh: 卡片
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: cards-min-width
 		title: Card minimum width
+		title.zh: 卡片最小宽度
 		type: variable-text
 		default: 160px
 	-
 		id: cards-max-width
 		title: Card maximum width
+		title.zh: 卡片最大宽度
 		type: variable-text
 		default: 1fr
 	-
 		id: cards-mobile-width
 		title: Card minimum width (Mobile)
+		title.zh: 卡片最小宽度（移动端）
 		type: variable-text
 		default: 120px
 	-
 		id: cards-padding
 		title: Card padding
+		title.zh: 卡片内边距
 		type: variable-text
 		default: 4px
 	-
 		id: cards-image-height
 		title: Card maximum image height
+		title.zh: 卡片图片最大高度
 		type: variable-text
 		default: 400px
 	- 
 		id: cards-background
 		title: Card background
+		title.zh: 卡片背景
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2723,6 +3049,7 @@ settings:
 	- 
 		id: cards-background-hover
 		title: Card background (Hover)
+		title.zh: 卡片背景（悬停）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2730,12 +3057,14 @@ settings:
 	-
 		id: callouts
 		title: Callouts
+		title.zh: 标注
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: callouts-style
 		title: Callout style
+		title.zh: 标注样式
 		type: class-select
 		allowEmpty: false
 		default: callouts-default
@@ -2752,22 +3081,27 @@ settings:
 	-
 		id: callout-size
 		title: Callout font size
+		title.zh: 标注字号
 		type: variable-text
 		default: 1rem
 	-
 		id: callout-lucide
 		title: Disable custom icons
+		title.zh: 禁用自定义图标
 		description: Use default Lucide icons in callouts.
+		description.zh: 在标注中使用默认的 Lucide 图标。
 		type: class-toggle
 	-
 		id: canvas
 		title: Canvas
+		title.zh: 白板
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: canvas-background
 		title: Canvas background
+		title.zh: 白板背景
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2775,6 +3109,7 @@ settings:
 	-
 		id: canvas-dot-pattern
 		title: Canvas dot pattern
+		title.zh: 白板点阵
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2782,17 +3117,20 @@ settings:
 	-
 		id: code-blocks
 		title: Code
+		title.zh: 代码
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: code-size
 		title: Code font size
+		title.zh: 代码字号
 		type: variable-text
 		default: 'var(--font-ui-smaller)'
 	-
 		id: code-background
 		title: Code background
+		title.zh: 代码背景
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2800,25 +3138,30 @@ settings:
 	-
 		id: code-line-numbers
 		title: Code line numbers
+		title.zh: 代码行号
 		type: class-toggle
 	-
 		id: code-scroll
 		title: Disable line wrap
+		title.zh: 禁用自动换行
 		type: class-toggle
 	-
 		id: embeds
 		title: Embeds
+		title.zh: 嵌入
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: embed-max-height
 		title: Embed maximum height
+		title.zh: 嵌入最大高度
 		type: variable-text
 		default: ''
 	-
 		id: embed-style
 		title: Embed style
+		title.zh: 嵌入样式
 		type: class-select
 		allowEmpty: false
 		default: embed-side
@@ -2835,6 +3178,7 @@ settings:
 	-
 		id: embed-background
 		title: Embed background
+		title.zh: 嵌入背景
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -2843,6 +3187,7 @@ settings:
 	-
 		id: embed-border-color
 		title: Embed border color
+		title.zh: 嵌入边框颜色
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -2851,6 +3196,7 @@ settings:
 	-
 		id: embed-border-thickness
 		title: Embed border thickness
+		title.zh: 嵌入边框粗细
 		type: variable-number-slider
 		format: px
 		default: 2
@@ -2860,16 +3206,19 @@ settings:
 	-
 		id: embed-hide-title
 		title: Hide embed titles
+		title.zh: 隐藏嵌入标题
 		type: class-toggle
 	-
 		id: links
 		title: Links
+		title.zh: 链接
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: link-color
 		title: Internal link color
+		title.zh: 内部链接颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2877,6 +3226,7 @@ settings:
 	-
 		id: link-color-hover
 		title: Internal link color (Hover)
+		title.zh: 内部链接颜色（悬停）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2884,6 +3234,7 @@ settings:
 	-
 		id: link-decoration
 		title: Internal link underline
+		title.zh: 内部链接下划线
 		type: variable-select
 		allowEmpty: false
 		default: none
@@ -2897,6 +3248,7 @@ settings:
 	-
 		id: link-external-color
 		title: External link color
+		title.zh: 外部链接颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2904,6 +3256,7 @@ settings:
 	-
 		id: link-external-color-hover
 		title: External link color (Hover)
+		title.zh: 外部链接颜色（悬停）
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -2911,6 +3264,7 @@ settings:
 	-
 		id: link-external-decoration
 		title: External link underline
+		title.zh: 外部链接下划线
 		type: variable-select
 		allowEmpty: false
 		default: none
@@ -2924,12 +3278,14 @@ settings:
 	-
 		id: lists
 		title: Lists & Tasks
+		title.zh: 列表与任务
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: indentation-guide-width
 		title: Indentation guides thickness
+		title.zh: 缩进参考线粗细
 		type: variable-number-slider
 		format: px
 		default: 0
@@ -2939,6 +3295,7 @@ settings:
 	-
 		id: indentation-guide-color
 		title: Indentation guides color
+		title.zh: 缩进参考线颜色
 		type: variable-select
 		allowEmpty: false
 		default: var(--background-modifier-border-hover)
@@ -2955,11 +3312,13 @@ settings:
     -
         id: list-spacing
         title: List spacing
+        title.zh: 列表间距
         type: variable-text
         default: 0.175rem
     -
         id: list-numbered-style
         title: List order style
+        title.zh: 有序列表样式
         type: variable-select
         default: decimal
         options:
@@ -3017,6 +3376,7 @@ settings:
     -
         id: list-marker-color
         title: List bullet color
+        title.zh: 列表项目符号颜色
         type: variable-themed-color
         default-light: '#'
         default-dark: '#'
@@ -3024,6 +3384,7 @@ settings:
 	-
 		id: checkbox-color
 		title: Checkbox color
+		title.zh: 复选框颜色
 		type: variable-themed-color
 		format: hex
 		default-light: '#'
@@ -3031,6 +3392,7 @@ settings:
 	-
 		id: checkbox-radius
 		title: Checkbox shape
+		title.zh: 复选框形状
 		type: variable-select
 		allowEmpty: false
 		default: 4px
@@ -3044,16 +3406,19 @@ settings:
 	-
 		id: strike-lists-off
 		title: Disable checkbox strikethrough
+		title.zh: 禁用复选框删除线
 		type: class-toggle
 	-
 		id: media
 		title: Media
+		title.zh: 媒体
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: media-width
 		title: Media width
+		title.zh: 媒体宽度
 		type: class-select
 		default: media-width-full
 		options:
@@ -3072,6 +3437,7 @@ settings:
 	-
 		id: img-grid-gap
 		title: Image grids spacing
+		title.zh: 图片网格间距
 		type: variable-number-slider
 		default: 4
 		min: 0
@@ -3081,24 +3447,29 @@ settings:
 	-
 		id: img-grid
 		title: Always show image grids
+		title.zh: 始终显示图片网格
 		type: class-toggle
 	-
 		id: media-muted
 		title: Dim media in dark mode
+		title.zh: 深色模式下调暗媒体
 		type: class-toggle
 	-
 		id: img-radius-off
 		title: Disable rounded media
+		title.zh: 禁用媒体圆角
 		type: class-toggle
 	-
 		id: pdf
 		title: PDF
+		title.zh: PDF
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: pdf-page-style
 		title: PDF page style
+		title.zh: PDF 页面样式
 		type: class-select
 		allowEmpty: false
 		default: pdf-shadow
@@ -3112,29 +3483,35 @@ settings:
 	-
 		id: pdf-invert-dark
 		title: Invert PDF color in dark mode
+		title.zh: 深色模式下反转 PDF 颜色
 		type: class-toggle
 	-
 		id: pdf-muted
 		title: Dim PDF pages in dark mode
+		title.zh: 深色模式下调暗 PDF 页面
 		type: class-toggle
 	-
 		id: pdf-radius-off
 		title: Disable rounded PDF pages
+		title.zh: 禁用 PDF 页面圆角
 		type: class-toggle
 	-
 		id: tables
 		title: Tables
+		title.zh: 表格
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: table-text-size
 		title: Table font size
+		title.zh: 表格字号
 		type: variable-text
 		default: 0.933rem
 	-
 		id: table-width
 		title: Table width
+		title.zh: 表格宽度
 		type: class-select
 		default: table-width-full
 		options:
@@ -3150,6 +3527,7 @@ settings:
 	-
 		id: table-text-align-header
 		title: Table header text alignment
+		title.zh: 表头文字对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -3166,6 +3544,7 @@ settings:
 	-
 		id: table-text-align-body
 		title: Table body text alignment
+		title.zh: 表体文字对齐
 		type: variable-select
 		allowEmpty: false
 		default: start
@@ -3182,49 +3561,61 @@ settings:
 	-
 		id: row-hover
 		title: Highlight hovered row
+		title.zh: 高亮悬停行
 		type: class-toggle
 	-
 		id: row-alt
 		title: Alternating row background
+		title.zh: 交替行背景
 		type: class-toggle
 	-
 		id: col-alt
 		title: Alternating columns background
+		title.zh: 交替列背景
 		type: class-toggle
 	-
 		id: row-lines
 		title: Always show row border
+		title.zh: 始终显示行边框
 		type: class-toggle
 	-
 		id: col-lines
 		title: Always show column border
+		title.zh: 始终显示列边框
 		type: class-toggle
 	-
 		id: table-numbers
 		title: Row line numbers
+		title.zh: 行号
 		type: class-toggle
 	-
 		id: table-tabular
 		title: Fixed-width tabular figures
+		title.zh: 等宽表格数字
 		type: class-toggle
 	-
 		id: table-nowrap
 		title: Disable line wrap
+		title.zh: 禁用自动换行
 		type: class-toggle
 	-
 		id: tags
 		title: Tags
+		title.zh: 标签
 		type: heading
 		level: 2
 		collapsed: true
 	-
 		id: unstyled-tags
 		title: Plain tags
+		title.zh: 纯文本标签
 		description: Display tags as normal text.
+		description.zh: 将标签显示为普通文字。
 		type: class-toggle
 	-
 		id: tag-radius
 		title: Tag shape
+		title.zh: 标签形状
 		type: variable-select
 		default: 8px
 		options:
@@ -3240,6 +3631,7 @@ settings:
 	-
 		id: tag-border-width
 		title: Tag border thickness
+		title.zh: 标签边框粗细
 		type: variable-number-slider
 		default: 0
 		min: 0
@@ -3249,6 +3641,7 @@ settings:
 	-
 		id: tag-color
 		title: Tag text color
+		title.zh: 标签文字颜色
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -3257,6 +3650,7 @@ settings:
 	-
 		id: tag-background
 		title: Tag background
+		title.zh: 标签背景
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -3265,6 +3659,7 @@ settings:
 	-
 		id: tag-background-hover
 		title: Tag background (Hover)
+		title.zh: 标签背景（悬停）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -3469,6 +3864,9 @@ body.color-scheme-accent .setting-item-control input[type="color"] {
     font-family: var(--font-interface);
     font-weight: var(--input-font-weight);
     font-size: var(--font-ui-smaller);
+  }
+  html[lang="zh"] &::after {
+    content: "Style Settings → Baseline → 颜色";
   }
 }
 
